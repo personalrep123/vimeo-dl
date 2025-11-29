@@ -1,4 +1,4 @@
-module github.com/akiomik/vimeo-dl
+module github.com/personalrep123/vimeo-dl
 
 go 1.21
 
