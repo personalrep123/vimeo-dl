@@ -16,7 +16,6 @@ package cmd
 
 import (
 	"encoding/base64"
-	"fmt"
 	"net/url"
 	"os"
 	"os/exec"
