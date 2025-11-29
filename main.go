@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/akiomik/vimeo-dl/cmd"
+	"github.com/personalrep123/vimeo-dl/cmd"
 )
 
 func main() {
