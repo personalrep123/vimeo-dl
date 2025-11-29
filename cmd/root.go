@@ -81,7 +81,6 @@ var rootCmd = &cobra.Command{
 			audioOutputFilename := outputFilename + "-audio.mp4"
 			err = createAudio(client, masterJson, masterJsonUrl, audioOutputFilename)
 			if err != nil {
-				fmt.Println("Error:", err.Error())
 				os.Exit(1)
 			}
 
