@@ -20,8 +20,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/akiomik/vimeo-dl/config"
-	"github.com/akiomik/vimeo-dl/vimeo"
+	"github.com/personalrep123/vimeo-dl/config"
+	"github.com/personalrep123/vimeo-dl/vimeo"
 	"github.com/spf13/cobra"
 )
 
