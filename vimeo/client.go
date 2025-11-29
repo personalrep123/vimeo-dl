@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/akiomik/vimeo-dl/config"
+	"github.com/personalrep123/vimeo-dl/config"
 )
 
 type Client struct {
