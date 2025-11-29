@@ -17,7 +17,6 @@ package vimeo
 import (
 	"encoding/base64"
 	"errors"
-	"fmt"
 	"io"
 	"net/url"
 )
