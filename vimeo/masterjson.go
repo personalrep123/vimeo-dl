@@ -197,7 +197,7 @@ func (mj *MasterJson) CreateVideoFile(output io.Writer, masterJsonUrl *url.URL, 
 	}
 
 	for _, videoSegmentUrl := range videoSegmentUrls {
-		fmt.Println("Downloading " + videoSegmentUrl.String())
+		("Downloading " + videoSegmentUrl.String())
 		err = client.Download(videoSegmentUrl, output)
 		if err != nil {
 			return err
@@ -225,7 +225,7 @@ func (mj *MasterJson) CreateAudioFile(output io.Writer, masterJsonUrl *url.URL, 
 	}
 
 	for _, videoSegmentUrl := range audioSegmentUrls {
-		fmt.Println("Downloading " + videoSegmentUrl.String())
+		("Downloading " + videoSegmentUrl.String())
 		err = client.Download(videoSegmentUrl, output)
 		if err != nil {
 			return err
