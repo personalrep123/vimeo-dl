@@ -17,6 +17,7 @@ package vimeo
 import (
 	"encoding/base64"
 	"errors"
+	"fmt"
 	"io"
 	"net/url"
 )
@@ -196,7 +197,6 @@ func (mj *MasterJson) CreateVideoFile(output io.Writer, masterJsonUrl *url.URL, 
 	}
 
 	for _, videoSegmentUrl := range videoSegmentUrls {
-		("Downloading " + videoSegmentUrl.String())
 		err = client.Download(videoSegmentUrl, output)
 		if err != nil {
 			return err
@@ -224,7 +224,6 @@ func (mj *MasterJson) CreateAudioFile(output io.Writer, masterJsonUrl *url.URL, 
 	}
 
 	for _, videoSegmentUrl := range audioSegmentUrls {
-		("Downloading " + videoSegmentUrl.String())
 		err = client.Download(videoSegmentUrl, output)
 		if err != nil {
 			return err
