@@ -10,9 +10,6 @@ clean:
 update:
 	go get -u
 
-fmt:
-	go fmt ./...
-
 lint:
 	staticcheck ./...
 
